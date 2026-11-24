@@ -1,0 +1,6 @@
+{
+  "name": "NoelBallot — Office Secret Santa Wheel",
+  "description": "Private, blinded spinning-wheel Secret Santa balloting system for office year-end gift exchanges.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
