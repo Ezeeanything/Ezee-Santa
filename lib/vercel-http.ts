@@ -1,4 +1,4 @@
-import { ServiceError } from './ballot-service.ts';
+import { ServiceError } from './ballot-service.js';
 
 export interface VercelLikeRequest {
   method?: string;

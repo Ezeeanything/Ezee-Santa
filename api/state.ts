@@ -1,5 +1,5 @@
-import { getPublicState } from '../lib/ballot-service.ts';
-import { sendError, type VercelLikeRequest, type VercelLikeResponse } from '../lib/vercel-http.ts';
+import { getPublicState } from '../lib/ballot-service.js';
+import { sendError, type VercelLikeRequest, type VercelLikeResponse } from '../lib/vercel-http.js';
 
 export default async function handler(
   req: VercelLikeRequest,

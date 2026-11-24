@@ -1,10 +1,10 @@
-import { signupParticipant } from '../lib/ballot-service.ts';
+import { signupParticipant } from '../lib/ballot-service.js';
 import {
   parseJsonBody,
   sendError,
   type VercelLikeRequest,
   type VercelLikeResponse,
-} from '../lib/vercel-http.ts';
+} from '../lib/vercel-http.js';
 
 export default async function handler(
   req: VercelLikeRequest,

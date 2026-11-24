@@ -1,4 +1,4 @@
-import type { VercelLikeRequest, VercelLikeResponse } from '../lib/vercel-http.ts';
+import type { VercelLikeRequest, VercelLikeResponse } from '../lib/vercel-http.js';
 
 export default function handler(req: VercelLikeRequest, res: VercelLikeResponse): void {
   if (req.method !== 'GET') {
